@@ -363,7 +363,6 @@ NPY_NO_EXPORT PyObject *
 PyArray_PutTo(PyArrayObject *self, PyObject *values0, PyObject *indices0,
               NPY_CLIPMODE clipmode)
 {
-    printf("hellos");
     PyArrayObject *indices, *values;
     npy_intp i, chunk, ni, max_item, nv, tmp;
     char *src, *dest;
